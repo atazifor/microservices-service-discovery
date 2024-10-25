@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taz.amin.util.reactor.ReactorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-10-21T17:38:48" hostname="Amins-MacBook-Pro.local" time="0.354">
+  <properties/>
+  <testcase name="testFlux()" classname="taz.amin.util.reactor.ReactorTests" time="0.308"/>
+  <testcase name="testFluxBlocking()" classname="taz.amin.util.reactor.ReactorTests" time="0.044"/>
+  <system-out><![CDATA[01:38:48.900 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onSubscribe([Fuseable] FluxMapFuseable.MapFuseableSubscriber)
+01:38:48.908 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | request(unbounded)
+01:38:48.908 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onNext(4)
+01:38:48.908 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onNext(8)
+01:38:48.909 [Test worker] INFO reactor.Flux.MapFuseable.1 -- | onComplete()
+01:38:49.034 [Test worker] INFO reactor.Flux.MapFuseable.2 -- | onSubscribe([Fuseable] FluxMapFuseable.MapFuseableSubscriber)
+01:38:49.034 [Test worker] INFO reactor.Flux.MapFuseable.2 -- | request(unbounded)
+01:38:49.034 [Test worker] INFO reactor.Flux.MapFuseable.2 -- | onNext(4)
+01:38:49.035 [Test worker] INFO reactor.Flux.MapFuseable.2 -- | onNext(8)
+01:38:49.035 [Test worker] INFO reactor.Flux.MapFuseable.2 -- | onComplete()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
